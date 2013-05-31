@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JumpBus</string>
+    <string name="age_input_label">Please enter your age</string>
+    <string name="destination_input_label">Please enter where you go</string>
+    <string name="home_setting">Please enter your home address</string>
+    <string name="profile_setting_title">Profile Setting</string>
+    <string name="save_profile_btn_label">Save</string>
+
+</resources>
