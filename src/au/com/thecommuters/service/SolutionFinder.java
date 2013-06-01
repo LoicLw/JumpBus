@@ -11,5 +11,16 @@ public class SolutionFinder extends Service{
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	@Override
+	public void onCreate() {
+				
+		super.onCreate();
+	}
+	
+	@Override
+	public void onStart(Intent intent, int startId) {
+		
+	}
 
 }

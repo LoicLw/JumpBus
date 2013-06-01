@@ -9,6 +9,7 @@
     <string name="save_profile_btn_label">Save</string>
     <string name="facultative_settings_title">Facultative settings</string>
     <string name="work_input_label">Please enter where you work</string>
+    <string name="spec_time_input_label">Please enter the time you leave</string>
     <string name="json_request_button">Request JSON</string>
 
 </resources>
