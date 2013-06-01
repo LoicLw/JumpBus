@@ -8,15 +8,15 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import org.apache.http.ParseException;
-import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 
 
 public class Communication {
 
-	public static JSONArray callServer(String url) {
+	public static JSONObject callServer(String url) {
 
-		JSONArray response = null;
+		JSONObject response = null;
 
 		BufferedReader in = null;
 		HttpURLConnection conn = null;
@@ -62,7 +62,7 @@ public class Communication {
 		}
 
 		try {
-			response = new JSONArray(strResult);
+			response = new JSONObject(strResult);
 		} catch (JSONException e) {
 
 			e.printStackTrace();

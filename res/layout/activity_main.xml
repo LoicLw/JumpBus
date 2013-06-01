@@ -10,23 +10,50 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:paddingTop="16dp"
         android:text="@string/profile_setting_title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/homeAddInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/home_setting" />
+
+    <EditText
+        android:id="@+id/workAddInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/work_input_label" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="16dp"
+        android:text="@string/facultative_settings_title"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
         android:id="@+id/ageInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10" >
+        android:ems="10"
+        android:hint="@string/age_input_label" >
 
         <requestFocus />
     </EditText>
 
-    <EditText
-        android:id="@+id/homeAddInput"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/JSONrequest"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10" />
+        android:layout_gravity="center"
+        android:onClick="onClick"
+        android:text="@string/json_request_button" />
 
     <Button
         android:id="@+id/saveProfileBtn"
